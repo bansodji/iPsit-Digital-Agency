@@ -1,0 +1,33 @@
+$theme-color-1: #0a6aaa;
+$theme-color-2: #d20b90;
+$theme-color-3: #ff6584;
+$red: #E12836;
+$grey: #777779;
+$green: #1ee94a;
+$bg-color-1: #fa7f9815;
+$gold: #e9b31e;
+
+$theme-color-1a: hsla(204, 89%, 35%, 0.9);
+$theme-color-2a: hsla(320, 90%, 43%, 0.9);
+
+
+@mixin full-page {
+    width: 100%;
+    height: 100vh;
+}
+
+@mixin icon-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+@mixin icon-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

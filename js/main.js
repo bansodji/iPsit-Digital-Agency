@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".black").hide();
+    $(".bi-x-lg").click(function(){
+        $(".black").hide();
+    });
+    $(".bi-list").click(function(){
+        $(".black").show();
+    });
+});
