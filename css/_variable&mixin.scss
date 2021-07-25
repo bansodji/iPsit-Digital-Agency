@@ -7,8 +7,10 @@ $green: #1ee94a;
 $bg-color-1: #fa7f9815;
 $gold: #e9b31e;
 
-$theme-color-1a: hsla(204, 89%, 35%, 0.9);
-$theme-color-2a: hsla(320, 90%, 43%, 0.9);
+$theme-color-1a: hsla(204, 89%, 35%, 0.95);
+$theme-color-2a: hsla(320, 90%, 43%, 0.95);
+$theme-color-1b: hsla(204, 89%, 35%, 0.9);
+$theme-color-2b: hsla(320, 90%, 43%, 0.9);
 
 
 @mixin full-page {

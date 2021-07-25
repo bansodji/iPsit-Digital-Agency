@@ -31,6 +31,10 @@
     <link rel="stylesheet" href="/css/owl.theme.default.css">
     <script src="/js/owl.carousel.min.js"></script>
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!--Local-->
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/main.js"></script>
@@ -78,9 +82,9 @@
 
     <header>
         <!--========Navbar========-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; z-index: 50;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; z-index: 90;">
             <div class="container">
-                <a href="#" class="navbar-brand brand-font my-2 text-white">iPsit</a>
+                <a id="nav-brnd" href="#" class="navbar-brand brand-font text-white">iPsit</a>
                 <i class="bi bi-list fs-4 fff"></i>
                 <div class="menu">
                     <ul class="navbar-nav">
@@ -110,16 +114,18 @@
         <div class="hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6" style="z-index: 20;">
+                    <div class="col-lg-6" style="z-index: 20;" data-aos="fade-right">
                         <img src="/img/bg.svg" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center align-items-center" style="z-index: 20;">
-                        <div>
+                        <div data-aos="fade-up">
                             <h1 class="fff heading font-lg mb-3">We are Creative Digital Agency</h1>
-                            <p class="fff fs-4 Trd-para">Beatae architecto minima sit recusandae repudiandae enim
+                            <p class="fff fs-4 Trd-para mb-5">Beatae architecto minima sit recusandae repudiandae enim
                                 praesentium atque adipisci, natus ea
                                 fuga excepturi? Minima mollitia laboriosam tempore eum at, reprehenderit deserunt.</p>
-                            <a href="#"><button class="f-btn-0 heading space-1">Get Started Now</button></a>
+                            <div data-aos="fade-up">
+                                <a href="#"><button class="f-btn-0 heading space-1">Get Started Now</button></a>
+                            </div>
 
                         </div>
                     </div>
@@ -167,12 +173,14 @@
 
                 <div class="col-lg-6">
                     <div>
-                        <h5 class="capital heading space-1 f-color-3">About Us</h5>
-                        <h1 class="heading">Total Solutions for Your Business Here</h1>
+                        <div data-aos="fade-right">
+                            <h5 class="capital heading space-1 f-color-3">About Us</h5>
+                            <h1 class="heading">Total Solutions for Your Business Here</h1>
+                        </div>
 
                         <div class="row my-5">
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5" data-aos="fade-up">
                                 <div class="icon-circle-blue d-flex justify-content-center align-items-center mb-4">
                                     <i class="icon-link fs-1 fff"></i>
                                 </div>
@@ -181,7 +189,7 @@
                                     solutions via human</h5>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5" data-aos="fade-up">
                                 <div class="icon-circle-pink d-flex justify-content-center align-items-center mb-4">
                                     <i class="icon-shield fs-1 fff"></i>
                                 </div>
@@ -190,7 +198,7 @@
                                     solutions via human</h5>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5" data-aos="fade-up">
                                 <div class="icon-circle-red d-flex justify-content-center align-items-center mb-4">
                                     <i class="icon-gears fs-1 fff"></i>
                                 </div>
@@ -199,7 +207,7 @@
                                     solutions via human</h5>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-center mb-5" data-aos="fade-up">
                                 <div class="icon-circle-green d-flex justify-content-center align-items-center mb-4">
                                     <i class="icon-hourglass fs-1 fff"></i>
                                 </div>
@@ -212,7 +220,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center" data-aos="fade-left">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
                         <defs>
@@ -240,18 +248,18 @@
         </svg>
 
         <div class="container mt-5 pt-5">
-            <div style="position:relative; z-index: 10;">
-                <div>
+            <div style="position:relative;">
+                <div data-aos="fade-up">
                     <h5 class="capital heading text-center space-1 f-color-3">Our Services</h5>
                     <h1 class="heading text-center">What Does We Offer?</h1>
                 </div>
             </div>
 
             <div class="row mt-5 pt-5">
-                <div class="col-lg-6" style="z-index: 10;">
+                <div class="col-lg-6" data-aos="fade-right">
                     <img src="/img/services/services.svg" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5" style="z-index: 10;">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5" data-aos="fade-left">
                     <div>
                         <h2 class="heading text-center">We Provide High Quality Service</h2>
                         <h5 class="text-center f-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut enim
@@ -263,21 +271,21 @@
             </div>
 
             <div class="row mt-5 pt-5">
-                <div class="col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center" data-aos="fade-up">
                     <img src="/img/services/service1.svg" class="img-fluid mb-4 service-img" alt="">
                     <h4 class="heading text-center">Keeping Your Data Secure</h4>
                     <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque vero
                         alias labore iste
                         minus, magnam a tenetur ad fugiat quis minus, magnam a tenetur ad fugiat quis.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center" data-aos="fade-up">
                     <img src="/img/services/service2.svg" class="img-fluid mb-4 service-img" alt="">
                     <h4 class="heading text-center">Daily Progress Update</h4>
                     <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque vero
                         alias labore iste
                         minus, magnam a tenetur ad fugiat quis minus, magnam a tenetur ad fugiat quis.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center" data-aos="fade-up">
                     <img src="/img/services/service3.svg" class="img-fluid mb-4 service-img" alt="">
                     <h4 class="heading text-center">15 Days Free Support</h4>
                     <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque vero
@@ -299,12 +307,14 @@
     <!--========Our Team========-->
     <section class="team">
         <div class="container">
-            <h5 class="capital heading text-center space-1 f-color-3">Our Team</h5>
-            <h1 class="heading text-center">Our Experienced Team</h1>
+            <div data-aos="fade-up">
+                <h5 class="capital heading text-center space-1 f-color-3">Our Team</h5>
+                <h1 class="heading text-center">Our Experienced Team</h1>
+            </div>
 
             <div class="row mt-5 pt-5">
 
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
                     <div class="d-flex flex-column align-items-center p-5 team-box">
                         <div class="img-box mb-4">
                             <img src="/img/our team/team1.jpg" class="img-fluid rounded-circle" alt="">
@@ -325,7 +335,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
                     <div class="d-flex flex-column align-items-center p-5 team-box">
                         <div class="img-box mb-4">
                             <img src="/img/our team/team2.jpg" class="img-fluid rounded-circle" alt="">
@@ -346,7 +356,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
                     <div class="d-flex flex-column align-items-center p-5 team-box">
                         <div class="img-box mb-4">
                             <img src="/img/our team/team3.jpg" class="img-fluid rounded-circle" alt="">
@@ -381,7 +391,7 @@
         </svg>
 
         <div class="container py-5">
-            <div class="position-relative" style="z-index: 10;">
+            <div class="position-relative" data-aos="fade-up">
                 <h5 class="capital heading text-center space-1 f-color-3">Testmonial</h5>
                 <h1 class="heading text-center">What Clients Say About Us</h1>
             </div>
@@ -389,7 +399,7 @@
             <div class="owl-carousel owl-theme mt-5 pt-5 py-5">
 
                 <!--====Car-item-1====-->
-                <div class="item car-box py-5">
+                <div class="item car-box py-5" data-aos="fade-right">
                     <div class="p-5">
                         <div class="mb-4"><span class="icon-quote-left fs-1 f-grey"></span></div>
                         <h5 class="mb-4">Assertively procrastinate distributed relationships whereas equity invested
@@ -417,7 +427,7 @@
                 </div>
 
                 <!--====Car-item-2====-->
-                <div class="item car-box py-5">
+                <div class="item car-box py-5" data-aos="fade-left">
                     <div class="p-5">
                         <div class="mb-4"><span class="icon-quote-left fs-1 f-grey"></span></div>
                         <h5 class="mb-4">Assertively procrastinate distributed relationships whereas equity invested
@@ -573,7 +583,8 @@
         <div class="container">
             <div class="row d-flex align-items-center">
 
-                <div class="col-lg-4 d-flex flex-column align-items-center price-column-1 mb-4">
+                <!--====Pricing-1====-->
+                <div class="col-lg-4 d-flex flex-column align-items-center price-column-1 mb-4" data-aos="fade-up">
                     <div class="price-tag mb-4">
                         <h1 class="f-color-2">$99</h1>
                         <h2 class="f-color-2">Per Month</h2>
@@ -591,7 +602,8 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column align-items-center price-column-2 mb-4">
+                <!--====Pricing-1====-->
+                <div class="col-lg-4 d-flex flex-column align-items-center price-column-2 mb-4" data-aos="fade-up">
                     <div class="price-tag mb-4">
                         <h1 class="f-color-2">$299</h1>
                         <h2 class="f-color-2">Per Month</h2>
@@ -609,7 +621,8 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column align-items-center price-column-1 mb-4">
+                <!--====Pricing-1====-->
+                <div class="col-lg-4 d-flex flex-column align-items-center price-column-1 mb-4" data-aos="fade-up">
                     <div class="price-tag mb-4">
                         <h1 class="f-color-2">$199</h1>
                         <h2 class="f-color-2">Per Month</h2>
@@ -640,24 +653,24 @@
             </path>
         </svg>
 
-        <div class="container pt-5 position-relative" style="z-index: 10;">
+        <div class="container pt-5 position-relative">
             <div class="row gx-5">
 
-                <div class="col-lg-4 d-flex flex-column justify-content-center px-5">
+                <div class="col-lg-4 d-flex flex-column justify-content-center px-5 mb-4" data-aos="fade-up">
                     <i class="bi bi-geo-alt font-lg f-color-3 mx-auto"></i>
                     <h5 class="fff text-center heading mb-4">Address</h5>
                     <h6 class="text-center fff-1">908 New Hampshire Avenue</h6>
                     <h6 class="text-center fff-1">Northwest #100</h6>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column justify-content-center px-5">
+                <div class="col-lg-4 d-flex flex-column justify-content-center px-5 mb-4" data-aos="fade-up">
                     <i class="bi bi-envelope-open font-lg f-color-3 mx-auto"></i>
                     <h5 class="fff text-center heading mb-4">Email</h5>
                     <h6 class="text-center fff-1">info@domain.com</h6>
                     <h6 class="text-center fff-1">support@domain.com</h6>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column justify-content-center px-5">
+                <div class="col-lg-4 d-flex flex-column justify-content-center px-5 mb-4" data-aos="fade-up">
                     <i class="bi bi-telephone font-lg f-color-3 mx-auto"></i>
                     <h5 class="fff text-center heading mb-4">Phone</h5>
                     <h6 class="text-center fff-1">Phone: +1 916-875-2235</h6>
@@ -666,8 +679,8 @@
 
             </div>
 
-            <div class="mt-5 pt-5">
-                <h2 class="heading fff text-center">Follow us on :</h2>
+            <div class="mt-5 pt-5 position-relative" style="z-index: 1;" data-aos="fade-up">
+                <h2 class="heading fff text-center">Follow us on</h2>
                 <div class="d-flex justify-content-center align-items-center mt-4">
                     <div class="circle-icon mx-1">
                         <span class="icon-facebook fs-4"></span>
@@ -684,7 +697,7 @@
                 </div>
             </div>
 
-            <div class="mt-5 py-4">
+            <div class="mt-5 py-4  position-relative" style="z-index: 1;">
                 <h5 class="text-center fff-1">&copy; iPsit - Business Template. All Rights Reserved</h5>
             </div>
         </div>
@@ -768,6 +781,8 @@
             once: true
         });
     </script>
+
+
 </body>
 
 </html>

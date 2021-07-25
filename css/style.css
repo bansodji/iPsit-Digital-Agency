@@ -266,7 +266,7 @@ header {
   height: 100vh;
   background: linear-gradient(60deg, rgba(10, 105, 169, 0.9), rgba(208, 11, 143, 0.9));
   position: fixed;
-  z-index: 99;
+  z-index: 100;
 }
 
 .mobile-menu .black .bi-x-lg {
@@ -286,6 +286,12 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 10rem;
+}
+
+.is-sticky {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(60deg, rgba(10, 105, 169, 0.9), rgba(208, 11, 143, 0.9));
 }
 
 .hero {
